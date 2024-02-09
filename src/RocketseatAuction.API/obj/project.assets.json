@@ -1602,11 +1602,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel.scharp\\Desktop\\Repositorios\\RocketseatAuction\\RocketseatAuction\\src\\RocketseatAuction.API\\RocketseatAuction.API.csproj",
+      "projectUniqueName": "C:\\Users\\Daniel.scharp\\Desktop\\Repositorios\\RocketseatAuction\\src\\RocketseatAuction.API\\RocketseatAuction.API.csproj",
       "projectName": "RocketseatAuction.API",
-      "projectPath": "C:\\Users\\Daniel.scharp\\Desktop\\Repositorios\\RocketseatAuction\\RocketseatAuction\\src\\RocketseatAuction.API\\RocketseatAuction.API.csproj",
+      "projectPath": "C:\\Users\\Daniel.scharp\\Desktop\\Repositorios\\RocketseatAuction\\src\\RocketseatAuction.API\\RocketseatAuction.API.csproj",
       "packagesPath": "C:\\Users\\Daniel.scharp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel.scharp\\Desktop\\Repositorios\\RocketseatAuction\\RocketseatAuction\\src\\RocketseatAuction.API\\obj\\",
+      "outputPath": "C:\\Users\\Daniel.scharp\\Desktop\\Repositorios\\RocketseatAuction\\src\\RocketseatAuction.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Daniel.scharp\\AppData\\Roaming\\NuGet\\NuGet.Config",

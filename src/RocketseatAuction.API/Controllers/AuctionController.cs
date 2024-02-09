@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RocketseatAuction.API.Entities;
+using RocketseatAuction.API.Enums;
 using RocketseatAuction.API.UseCases.Auctions.GetCurrent;
 
 namespace RocketseatAuction.API.Controllers
 {
-    [Route("[controller]")]
-    [ApiController]
-    public class AuctionController : ControllerBase
+
+    public class AuctionController : RocketseatAuctionBaseController
     {
         [HttpGet]
         [ProducesResponseType(typeof(Auction), StatusCodes.Status200OK)]
@@ -17,11 +17,14 @@ namespace RocketseatAuction.API.Controllers
 
             var result = useCase.Execute();
 
+            var item = result.Items.First();
 
             if(result is null)
                 return NoContent();
 
             return Ok(result);
         }
+
+  
     }
 }
